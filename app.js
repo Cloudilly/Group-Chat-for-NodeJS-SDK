@@ -1,6 +1,6 @@
 var app= "<INSERT YOUR APP IDENTIFIER>";
 var access= "<INSERT YOUR ACCESS KEY>";
-var cloudilly= require("/Cloudilly/hook.min.js");
+var cloudilly= require("./Cloudilly/hook.min.js");
 
 cloudilly.initialize(app, access, function() {
 	cloudilly.connect();

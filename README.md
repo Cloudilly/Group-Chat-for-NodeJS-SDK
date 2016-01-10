@@ -1,5 +1,5 @@
 #Anonymous Group Chat for Hook NodeJS SDK
-Repository contains sample codes required to build the backend Hook NodeJS app complementary to the front facing anonymous group chat application. App just _listen_ passively to the group _public_, but you can hook up and do more interesting stuff like sending out a push notification whenever a new device enters the group _public_.
+Repository contains sample codes required to build the backend Hook NodeJS app complementary to the front facing anonymous group chat application. App just _listen_ passively to the group _public_, but you can hook up to do something whenever a new device enters the group _public_ or send a particular string of text.
 
 #####Create app
 If you have not already done so, first create an account on [Cloudilly](https://cloudilly.com). Next create an app with a unique app identifier and a cool name. Once done, you should arrive at the app page with all the access keys for the different platforms. Under Hook SDK, you will find the parameters required for your Cloudilly application. _"Access"_ refers to the access keys to be embedded in your server side Hook codes.
